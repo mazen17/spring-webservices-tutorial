@@ -1,6 +1,6 @@
 package com.blog.samples.services;
 
-import com.blog.samples.webservices.Account;
+import com.example.webservices.Account;
 
 /**
  * The Interface AccountService.

@@ -7,9 +7,10 @@ import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
 import com.blog.samples.services.AccountService;
-import com.blog.samples.webservices.Account;
-import com.blog.samples.webservices.accountservice.AccountDetailsRequest;
-import com.blog.samples.webservices.accountservice.AccountDetailsResponse;
+import com.example.webservices.Account;
+import com.example.webservices.accountservice.AccountDetailsRequest;
+import com.example.webservices.accountservice.AccountDetailsResponse;
+
 
 /**
  * The Class AccountService.
@@ -17,7 +18,7 @@ import com.blog.samples.webservices.accountservice.AccountDetailsResponse;
 @Endpoint
 public class AccountServiceEndpoint
 {
-	private static final String TARGET_NAMESPACE = "http://com/blog/samples/webservices/accountservice";
+	private static final String TARGET_NAMESPACE = "http://com/example/webservices/accountservice";
 
 	@Autowired
 	private AccountService accountService_i;
